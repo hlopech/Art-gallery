@@ -1,0 +1,33 @@
+.mainContainer{
+    text-align: center;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+}
+.errorNum{
+    margin-top: 15%;
+    font-size: 5vw;
+}
+.errorDescription{
+    font-size: 3vw;
+}
+.errorLinkDescription{
+    font-size: 3vw;
+}
+.linkContainer{
+    display: flex;
+    color: grey;
+
+    justify-content: center;
+    gap: 1vw;
+}
+.linlText{
+    font-size: 3vw;
+    color: inherit;
+}
+
+.linlText:hover{
+    color: red;
+}

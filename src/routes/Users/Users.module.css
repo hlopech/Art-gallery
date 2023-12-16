@@ -1,0 +1,17 @@
+.usersPage{
+   height:10%;
+
+}
+.users{
+    margin-top: 10%;
+    color: rgb(167, 167, 167);
+    display: flex;
+    flex-direction: column;    
+}
+.user{
+    color: inherit;
+    text-decoration: none;
+}
+.user:hover{
+    color:red;
+}

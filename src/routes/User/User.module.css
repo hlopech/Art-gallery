@@ -1,0 +1,63 @@
+
+  .errorPage{
+    margin: 0 auto;
+    margin-top: 15%;
+    text-align: center;
+  }
+  
+  .userInfoContainer{
+    margin-top: 5%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.userInfo{
+  margin-top: 10%;
+display: flex;
+flex-direction: column;
+}
+.userAlbums{
+  margin-top: 5%;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+.title{
+    font-size: 1.6vw;
+    font-weight: 600;
+    color:red;
+}
+
+.infoField{
+    text-decoration: none;
+    font-size: 1.2vw;
+    color: rgb(167, 167, 167);
+}
+.userLink{
+    text-decoration: none;
+}
+.album{
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.5vw;
+  display: flex;
+  gap: 0.3vw;
+}
+.albumTitle::first-letter {
+  text-transform: uppercase;
+}
+.album:hover{
+  color: red;
+}
+.albumIcon{
+  width: 1.2vw;
+  height: 1.2vw;
+}
+.albumsContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 0.2vw;
+  color: rgb(167, 167, 167);
+}
